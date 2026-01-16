@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { AnimatePresence } from 'framer-motion';
 import EntryScreen from './components/EntryScreen';
 import DiscoverySection from './components/DiscoverySection';
 import StorytellingSection from './components/StorytellingSection';
 import FinalReveal from './components/FinalReveal';
 import ParticleBackground from './components/ParticleBackground';
-import MessageForm from './components/MessageForm';
 import FloatingMessages from './components/FloatingMessages';
 import './App.css';
+
 
 const ACCESS_TOKEN = 'special-moment-2024'; // Change this to your desired token
 
