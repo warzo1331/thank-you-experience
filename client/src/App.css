@@ -1,0 +1,13 @@
+.app {
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  background: radial-gradient(ellipse at center, #0a0a1a 0%, #000000 100%);
+}
+
+/* Smooth transitions for all sections */
+section {
+  position: relative;
+  z-index: 1;
+}

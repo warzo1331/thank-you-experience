@@ -1,0 +1,105 @@
+.final-reveal {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  position: relative;
+  z-index: 10;
+}
+
+.final-container {
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+.final-content {
+  position: relative;
+}
+
+.final-title {
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 200;
+  letter-spacing: 12px;
+  margin-bottom: 3rem;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.final-title::after {
+  content: '';
+  position: absolute;
+  bottom: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.3), transparent);
+}
+
+.final-message {
+  font-size: clamp(1.2rem, 3vw, 1.8rem);
+  line-height: 2.5;
+  color: #e0e0e0;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: 4rem;
+  font-style: italic;
+}
+
+.final-invitation {
+  margin-top: 4rem;
+}
+
+.invitation-text {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.message-button {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding: 0.8rem 2.5rem;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.message-button:hover {
+  border-color: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.form-container {
+  margin-top: 3rem;
+}
+
+.submission-confirmation {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+}
+
+.submission-confirmation p {
+  font-size: 1.1rem;
+  color: #e0e0e0;
+  margin-bottom: 0.5rem;
+}
+
+.confirmation-subtext {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-style: italic;
+}
